@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Julian's Portfolio</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&family=Fira+Sans:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <a href="#main" class="skip-to-main">Skip to main content</a>
+
+    <header class="site-header">
+      <div class="wrapper site-header__inner">
+        <a href="/" class="site-logo">Julian</a>
+        <button aria-expanded="false" aria-controls="primary-navigation">
+          <span class="visually-hidden">Menu</span>
+          <img src="assets/hamburger.svg" />
+        </button>
+        <nav class="primary-navigation" id="primary-navigation">
+          <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main id="main">
+      <section class="hero section">
+        <div class="wrapper">
+          <h1 class="hero__title">Hi, I'm <span>Julian</span></h1>
+          <p>
+            I build exceptional digital experiences that solve real-world
+            problems.
+          </p>
+          <div
+            class="flex-group"
+            style="justify-content: center; margin-top: 2rem"
+          >
+            <a href="#contact" class="button">Get in touch</a>
+            <a href="#projects" class="button">View my work</a>
+          </div>
+        </div>
+      </section>
+
+      <section id="about" class="section background-light">
+        <div class="wrapper" data-width="narrow">
+          <div class="text-center flow">
+            <span class="tag">About Me</span>
+            <h2 class="section-title">Get to know me</h2>
+            <p>
+              I'm a passionate developer with expertise in building modern web
+              applications. With over 5 years of experience, I've worked on a
+              variety of projects ranging from small business websites to
+              complex enterprise applications.
+            </p>
+          </div>
+
+          <div class="equal-columns" data-gap="large" style="margin-top: 3rem">
+            <div class="flow">
+              <h3>Technical Skills</h3>
+              <p>
+                JavaScript, TypeScript, React, Next.js, Node.js, HTML, CSS,
+                Tailwind CSS, Python, Django, FastAPI, PostgreSQL, MongoDB.
+              </p>
+
+              <h3>Experience</h3>
+              <p>
+                5 years of professional experience working with startups and
+                established companies.
+              </p>
+
+              <h3>Education</h3>
+              <p>
+                Diploma in Chemical Engineering from University UTN in
+                Argentina.
+              </p>
+            </div>
+            <!-- <div>
+              <img src="assets/about.jpg" alt="About Me" class="about-image" />
+            </div> -->
+          </div>
+        </div>
+      </section>
+
+      <section id="projects" class="section">
+        <div class="wrapper">
+          <div class="text-center flow">
+            <span class="tag">Portfolio</span>
+            <h2 class="section-title">My Recent Projects</h2>
+            <p>
+              Here are some of the projects I've worked on recently. Each
+              project represents a unique challenge and solution.
+            </p>
+          </div>
+
+          <div class="grid-auto-fill" style="margin-top: 3rem">
+            <article class="card">
+              <img src="assets/linear-clone.png" alt="E-commerce Platform" />
+              <h3 class="card__title">An Issue tracker</h3>
+              <p>Linear-styled clone to create and track issues.</p>
+
+              <a
+                href="https://ticket-issues.vercel.app"
+                class="button"
+                target="_blank"
+                rel="noopener noreferrer"
+                >View Project</a
+              >
+              <ul class="tag-list">
+                <li data-tech="web">Next.js</li>
+                <li data-tech="payment">React19</li>
+                <li data-tech="css">Tailwind CSS</li>
+              </ul>
+            </article>
+
+            <!-- <article class="card">
+              <img src="assets/project2.jpg" alt="SaaS Dashboard" />
+              <h3 class="card__title">SaaS Dashboard</h3>
+              <p>
+                An analytics dashboard for a subscription-based software
+                service.
+              </p>
+              <ul class="tag-list">
+                <li data-tech="web">React</li>
+                <li data-tech="chart">Chart.js</li>
+                <li data-tech="backend">Node.js</li>
+              </ul>
+              <a href="#" class="button">View Project</a>
+            </article>
+
+            <article class="card">
+              <img src="assets/project3.jpg" alt="Mobile App" />
+              <h3 class="card__title">Mobile App</h3>
+              <p>
+                A cross-platform mobile application for task management and
+                productivity.
+              </p>
+              <ul class="tag-list">
+                <li data-tech="mobile">React Native</li>
+                <li data-tech="backend">Firebase</li>
+                <li data-tech="state">Redux</li>
+              </ul>
+              <a href="#" class="button">View Project</a>
+            </article> -->
+            <article class="card">
+              <!-- <img src="assets/project3.jpg" alt="Mobile App" /> -->
+              <h3 class="card__title">More comming soon!</h3>
+              <p>
+                This is a WIP project so you will soon be able to look more from
+                my projects working with.
+              </p>
+              <ul class="tag-list">
+                <li data-tech="mobile">React Native</li>
+                <li data-tech="backend">PostgreSQL</li>
+                <li data-tech="state">Python</li>
+              </ul>
+              <!-- <a href="#" class="button">View Project</a> -->
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="services" class="section background-light">
+        <div class="wrapper">
+          <div class="text-center flow">
+            <span class="tag">Services</span>
+            <h2 class="section-title">What I Offer</h2>
+            <p>
+              I provide a range of services to help businesses and individuals
+              achieve their digital goals.
+            </p>
+          </div>
+
+          <div class="equal-columns" style="margin-top: 3rem">
+            <article class="service-card">
+              <div class="service-icon">
+                <img src="assets/reactjs-svgrepo-com.svg" alt="Code icon" />
+              </div>
+              <h3>Web Development</h3>
+              <p>
+                Custom websites and web applications built with modern
+                technologies and best practices.
+              </p>
+            </article>
+
+            <article class="service-card">
+              <div class="service-icon">
+                <img src="assets/python-svgrepo-com.svg" alt="Message icon" />
+              </div>
+              <h3>Consultation</h3>
+              <p>
+                Expert advice on technology choices, architecture, and
+                development strategies.
+              </p>
+            </article>
+
+            <!-- <article class="service-card">
+              <div class="service-icon">
+                <img src="assets/user.png" alt="User icon" />
+              </div>
+              <h3>UI/UX Design</h3>
+              <p>
+                User-centered design that focuses on creating intuitive and
+                engaging experiences.
+              </p>
+            </article> -->
+          </div>
+        </div>
+      </section>
+
+      <section id="contact" class="section">
+        <div class="wrapper" data-width="narrow">
+          <div class="text-center flow">
+            <span class="tag">Connect</span>
+            <h2 class="section-title">Let's Connect</h2>
+            <p>
+              Interested in working together or have a question? Connect with me
+              through these platforms.
+            </p>
+          </div>
+
+          <div class="social-links-container">
+            <a
+              href="https://linkedin.com/in/julianbazanaguirre"
+              class="social-link"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <div class="social-icon linkedin-icon">
+                <img
+                  src="assets/linkedin-color-svgrepo-com.svg"
+                  alt="LinkedIn icon"
+                />
+              </div>
+              <span>LinkedIn</span>
+            </a>
+
+            <a
+              href="https://github.com/the-julianson"
+              class="social-link"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <div class="social-icon github-icon">
+                <img
+                  src="assets/github-142-svgrepo-com.svg"
+                  alt="GitHub icon"
+                />
+              </div>
+              <span>GitHub</span>
+            </a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="wrapper">
+        <p>
+          &copy; <span id="current-year"></span> Julian. Let's work together!
+        </p>
+        <!-- <div class="footer-links">
+          <a href="#">Privacy Policy</a>
+          <a href="#">Terms of Service</a>
+        </div> -->
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
