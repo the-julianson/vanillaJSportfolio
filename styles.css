@@ -531,7 +531,7 @@ select {
   .hero {
     text-align: center;
     background-color: var(--background-dark);
-    background-image: url(/assets/WorkInProgress.png);
+    /* background-image: url(/assets/WorkInProgress.png); */
     background-size: cover;
     color: var(--text-inverted);
     padding-block: calc(var(--space-xl) * 1.5);
@@ -544,8 +544,8 @@ select {
 
   .hero__title span {
     display: block;
-    color: var(--accent-color);
-    font-size: var(--fs-1000);
+    /* color: var(--accent-color);
+    font-size: var(--fs-1000); */
   }
 
   .tag {
