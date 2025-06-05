@@ -100,23 +100,60 @@
 
           <div class="grid-auto-fill" style="margin-top: 3rem">
             <article class="card">
-              <img src="assets/linear-clone.png" alt="E-commerce Platform" />
+              <div class="relative aspect-video w-full overflow-hidden rounded-lg">
+                <iframe 
+                  src="https://ticket-issues.vercel.app" 
+                  class="absolute inset-0 h-full w-full"
+                  title="Issue Tracker App"
+                  loading="lazy"
+                ></iframe>
+              </div>
               <h3 class="card__title">An Issue tracker</h3>
               <p>Linear-styled clone to create and track issues.</p>
 
-              <a
-                href="https://ticket-issues.vercel.app"
-                class="button"
-                target="_blank"
-                rel="noopener noreferrer"
-                >View Project</a
-              >
+              <div class="flex gap-4 mt-4">
+                <button 
+                  onclick="window.open('https://ticket-issues.vercel.app', '_blank')"
+                  class="button bg-gray-700 hover:bg-gray-600"
+                >
+                  Open in New Window
+                </button>
+              </div>
               <ul class="tag-list">
                 <li data-tech="web">Next.js</li>
                 <li data-tech="payment">React19</li>
                 <li data-tech="css">Tailwind CSS</li>
               </ul>
             </article>
+
+            <article class="card">
+              <div class="relative aspect-video w-full overflow-hidden rounded-lg">
+                <iframe 
+                  src="https://pizzaconmigo.netlify.app/" 
+                  class="absolute inset-0 h-full w-full"
+                  title="Pizza Conmigo App"
+                  loading="lazy"
+                ></iframe>
+              </div>
+              <h3 class="card__title">A Pizza Ordering App</h3>
+              <p>Add your favorite pizza to the cart and checkout.</p>
+
+              <div class="flex gap-4 mt-4">
+                <button 
+                  onclick="window.open('https://pizzaconmigo.netlify.app/', '_blank')"
+                  class="button bg-gray-700 hover:bg-gray-600"
+                >
+                  Open in New Window
+                </button>
+              </div>
+              <ul class="tag-list">
+                <li data-tech="web">ReactJS</li>
+                <li data-tech="payment">Tanstack Query</li>
+                <li data-tech="css">Tanstack Router</li>
+              </ul>
+            </article>
+
+
 
             <!-- <article class="card">
               <img src="assets/project2.jpg" alt="SaaS Dashboard" />
