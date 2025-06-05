@@ -757,6 +757,20 @@ select {
     height: auto;
     border-radius: var(--border-radius-lg);
   }
+
+  .card iframe {
+    border: none;
+    background: #f8f9fa;
+    transition: opacity 0.3s ease;
+  }
+
+  .card iframe:not([src]) {
+    opacity: 0;
+  }
+
+  .card iframe[src] {
+    opacity: 1;
+  }
 }
 
 /* Utilities */
